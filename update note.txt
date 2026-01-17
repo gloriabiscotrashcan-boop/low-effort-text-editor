@@ -1,0 +1,20 @@
+v.0.3.1
+- add config file to save the location and size of the last session
+
+v.0.3
+- save new file now change noname to yyyymmddhhnnss.txt
+
+v.0.2.1
+- change font for filename : bigger and bold
+
+v.0.2
+- add scrollbar
+- add filename display
+- note: to load file name with space in its name, enclose it with double quotes
+  example : notepad "some file.txt"
+
+v.0.1
+- add load file from command line
+  example: notepad somefile.txt
+- change font from proportional font to fix width font
+- add ctrl-w to toggle word wrap on/off
