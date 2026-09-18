@@ -1,3 +1,6 @@
+v.1.0.0
+- add linux and windows cross-compile tag
+
 v.0.3.1
 - add config file to save the location and size of the last session
 
