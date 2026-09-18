@@ -6,7 +6,16 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  Windows, IniFiles;
+ 
+  {$IFDEF MSWINDOWS}
+  Windows,
+  {$ENDIF}
+ 
+  {$IFDEF LINUX}
+  LCLType,
+  {$ENDIF}
+
+  IniFiles;
 
 type
 
